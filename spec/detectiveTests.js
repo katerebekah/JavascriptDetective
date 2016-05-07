@@ -16,6 +16,6 @@ describe("getOffGlobalScope", function() {
 
 describe("hoisting", function(){
 	it("should be defined", function(){
-		expect(hoisting()).toEqual("The Chicken or the Egg? ? ? ");
+		expect(hoisting()).toEqual("The Chicken or the Egg");
 	})
 });
